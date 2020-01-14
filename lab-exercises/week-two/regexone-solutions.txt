@@ -1,0 +1,16 @@
+1. abc 
+2. 123
+3. …\.
+4. [cmf]an
+5. [hd]og
+6. [ABC][nop][abc]
+7. waz{3,5}up
+8. aa+b*c+
+9. \d+ files? found\?
+10. \d\.\s+abc
+11. ^Mission: successful
+12. ^(file_\w+)
+13. ^(\w+ (\d+))
+14. (\d{4})x(\d{3,4})
+15. I love (cats|dogs)
+16. (\w+ ){2,10}(\w+.|\D+)(\d\D \w+ \w+.)? 
