@@ -1,1 +1,57 @@
-Testing for Github
+1. Touch command creates a new file. Using the GUI explorer the file does show up
+2. the file is 0 bytes
+3. We would want to create a file this way when we want to put it in a directory and make the file blank. 
+
+
+Moving files to a new folder:
+
+mv sucrose.dat maltose.dat ../raw 
+
+Renaming Files 
+
+1. No because the old file would still exist.
+2. Yes this would work
+3. No this would not work because there is no file name 
+4. No this would not work because there is no final destination for the file. 
+
+Moving and Copying 
+
+1. no because the file is located in a different place 
+2. Yes
+3. No because the proteins.dat is located in /useres/jamie/data/recombine 
+4. No because proteins-saved.dat is located in /Users/jamie 
+
+Removing files and Directories 
+
+All files that are deleted disappear forever but by using -i, we can check that we are deleting only the files we want. 
+
+Copy with multiple file names:
+
+If there are 3 or more file names, cp will result in an error because it wants a directory name. If a directory is given, than it works. 
+
+List filenames matching a pattern:
+
+Answer is 3
+
+1. shows files whose names contain zero or more characters followed by the letter t, zero or more characters followed by ane.pdb 
+2. This one does not work because it makes the tane files pop up so the thane files would not show up. 
+3. This one works 
+4. this one would only show files with the word ethane in them 
+
+Wildcards:
+
+cp *calibration.txt backup/calibration
+ cp 2015-11-* send_to_bob/all_november_files/
+ cp *-23-dataset* send_to_bob/all_datasets_created_on_a_23r
+
+Organizing Directory:
+
+mv. *.dat analyzed 
+
+Reproduce a folder structure:
+
+
+The first two sets would work 
+The third set would not work because mkdir cannot make a directory in something that doesnt exist
+the final set generates raw and processed directories in the data directory 
+
