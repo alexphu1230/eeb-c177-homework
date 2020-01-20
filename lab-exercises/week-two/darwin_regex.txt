@@ -1,0 +1,15 @@
+2.2 Exercises Darwin
+
+1. \b[s](\w)*
+2. (\w+)[.?]
+3. \b[^(.|?)]*
+4. \b[^(.|?)]*struggle for existence,?\b[^(.|?)]*
+
+Extra Credit: 
+
+(^\w+|[?.] (\S+))
+
+^\w+ in the beggining of this expression references the first word, and the | means either the first half of
+the expression or the second half of the expression. The next part of the expression, [?.] (\S+)) means
+to start at a punctuation and capture the punctuation and the next word. This way, in the Darwin paragraph
+every first word of each sentence will be highlighted.  
