@@ -1,0 +1,10 @@
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments/homework-two$ ls
+easy-question.txt  fishes-sort.txt   fishes-unique.txt  hw2-part1-commands.txt    hw2-part3-commands.txt  Pacifici-25wordcount.txt  Pacifici-ten.txt
+fasta-cat.txt      fishes-sort.txxt  fish_species.txt   hw2-part2-commands-1.txt  Pacifici-25lines.txt    Pacifici-delim.txt        pipe-data-lines.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments/homework-two$ nano fishes-unique.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments/homework-two$ sort -r fish_species.txt
+eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments/homework-two$ touch fishes-sort.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments/homework-two$ nano fishes-sort.txxt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments/homework-two$ uniq fish_species.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments/homework-two$ sort fish_species.txt
+
