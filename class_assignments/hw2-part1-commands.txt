@@ -1,0 +1,109 @@
+(base) eebc177student@eebc177student-VirtualBox:~$ ~/Developers/repos/CSB/unix/sandbox/
+bash: /home/eebc177student/Developers/repos/CSB/unix/sandbox/: No such file or directory
+(base) eebc177student@eebc177student-VirtualBox:~$ cd Developer
+(base) eebc177student@eebc177student-VirtualBox:~/Developer$ cd repos
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos$ cd CSB
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB$ cd unix
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB/unix$ cd sandbox
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB/unix/sandbox$ wget -c http://dev.shawntylerschwartz.com/docs/paragraphs.txt
+--2020-01-20 23:47:44--  http://dev.shawntylerschwartz.com/docs/paragraphs.txt
+Resolving dev.shawntylerschwartz.com (dev.shawntylerschwartz.com)... 64.111.117.134
+Connecting to dev.shawntylerschwartz.com (dev.shawntylerschwartz.com)|64.111.117.134|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 7858 (7.7K) [text/plain]
+Saving to: ‘paragraphs.txt’
+
+paragraphs.txt                          100%[===============================================================================>]   7.67K  --.-KB/s    in 0s      
+
+2020-01-20 23:47:44 (437 MB/s) - ‘paragraphs.txt’ saved [7858/7858]
+
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB/unix/sandbox$ cd
+(base) eebc177student@eebc177student-VirtualBox:~$ cd Devleoper
+bash: cd: Devleoper: No such file or directory
+(base) eebc177student@eebc177student-VirtualBox:~$ cd Developer
+(base) eebc177student@eebc177student-VirtualBox:~/Developer$ cd repos
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos$ ls
+CSB  CSB_2019  eeb-c177-homework
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos$ cd eeb-c177-homework
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework$ ls
+class_assignments  class_exercises_1-14_2020  lab-exercises
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework$ cd class_assignments
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ ls
+Homework_1-16.txt  Thursday_1-16.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ mkdir homework-two
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ ls
+Homework_1-16.txt  homework-two  Thursday_1-16.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ cd
+(base) eebc177student@eebc177student-VirtualBox:~$ cd Developer
+(base) eebc177student@eebc177student-VirtualBox:~/Developer$ ls
+repos
+(base) eebc177student@eebc177student-VirtualBox:~/Developer$ cd repos
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos$ ls
+CSB  CSB_2019  eeb-c177-homework
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos$ cd CSB
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB$ ls
+data_wrangling  git  good_code  latex  LICENSE  python  r  README.md  regex  scientific  sql  unix
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB$ cd unix
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB/unix$ ls
+data  installation  sandbox  solutions  unix-commands-used-in-class.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB/unix$ cd sanbox
+bash: cd: sanbox: No such file or directory
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB/unix$ cd sandbox
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB/unix/sandbox$ ls
+ Buzzard2015_about.txt   dir1  'Papers and reviews'   paragraphs.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB/unix/sandbox$ mv paragraphs.txt /home/eebc177student/Developer/repos/eeb-c177-homework/class_assignments
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB/unix/sandbox$ ls
+ Buzzard2015_about.txt   dir1  'Papers and reviews'
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB/unix/sandbox$ cd
+(base) eebc177student@eebc177student-VirtualBox:~$ cd Developer
+(base) eebc177student@eebc177student-VirtualBox:~/Developer$ cd repos
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos$ ls 
+CSB  CSB_2019  eeb-c177-homework
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos$ cd eeb-c177-homework
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework$ ls
+class_assignments  class_exercises_1-14_2020  lab-exercises
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework$ cd class-assignments
+bash: cd: class-assignments: No such file or directory
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework$ cd class_assignments 
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ ls
+Homework_1-16.txt  homework-two  paragraphs.txt  Thursday_1-16.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ git add -A
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ git commit "Homework #2 part 1" 
+error: pathspec 'Homework #2 part 1' did not match any file(s) known to git.
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ git add -A
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ git commit -m "Homework #2 part 1"
+[master 2e648c9] Homework #2 part 1
+ 1 file changed, 19 insertions(+)
+ create mode 100644 class_assignments/paragraphs.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ git push origin master
+Username for 'https://github.com': alexphu1230
+Password for 'https://alexphu1230@github.com': 
+Counting objects: 4, done.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 2.57 KiB | 2.57 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/alexphu1230/eeb-c177-homework.git
+   e8efea1..2e648c9  master -> master
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ mv paragraphs.txt easy-question.txt 
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ ls
+easy-question.txt  Homework_1-16.txt  homework-two  Thursday_1-16.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ git add -A
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ git commit -m "renamed file" 
+[master 74f3058] renamed file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename class_assignments/{paragraphs.txt => easy-question.txt} (100%)
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ git push origin master
+Username for 'https://github.com': alexphu1230
+Password for 'https://alexphu1230@github.com': 
+Counting objects: 3, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 300 bytes | 300.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/alexphu1230/eeb-c177-homework.git
+   2e648c9..74f3058  master -> master
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ touch hw2-part1-commands.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ nano hw2-part1-commands.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ 
+
