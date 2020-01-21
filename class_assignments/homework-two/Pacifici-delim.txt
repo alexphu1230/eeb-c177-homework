@@ -1,0 +1,1 @@
+the delimiter for the CSV file is a semi-colon (;) 
