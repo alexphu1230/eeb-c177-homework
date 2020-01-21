@@ -1,0 +1,71 @@
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments/homework-two$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos$ ls
+CSB  CSB_2019  eeb-c177-homework
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos$ cd CSB
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB$ cd 
+(base) eebc177student@eebc177student-VirtualBox:~$ cd Developer
+(base) eebc177student@eebc177student-VirtualBox:~/Developer$ cd repos
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos$ cd CSB
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB$ ls
+data_wrangling  git  good_code  latex  LICENSE  python  r  README.md  regex  scientific  sql  unix
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB$ cd unix
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB/unix$ ls
+data  installation  pipe-data-lines.txt  sandbox  solutions  unix-commands-used-in-class.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB/unix$ cd data
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB/unix/data$ head -n 10 Pacifici2013_data.csv | cut -d ';' -f 1
+TaxID
+7580
+42632
+42653
+42662
+16652
+17035
+42617
+41410
+42678
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB/unix/data$ tail -n 5 Pacifici2013_data.csv
+7140;Proboscidea;Elephantidae;Elephas;Elephas maximus;3269794;PanTHERIA;27435.833333;"PanTHERIA;AnAge;Carn_Ung";22690.833333;4745;PanTHERIA;11325.341667;8030;GMA
+12392;Proboscidea;Elephantidae;Loxodonta;Loxodonta africana;3824540;PanTHERIA;27375;"PanTHERIA;AnAge;Carn_Ung";23907.5;3467.5;PanTHERIA;10400.675;9125;GMA
+15421;Cetartiodactyla;Delphinidae;Orcinus;Orcinus orca;5628758.66;PanTHERIA;34425;"PanTHERIA; AnAge";28968.25;5456.75;PanTHERIA;13857.5425;9380.5;GMA
+41712;Cetartiodactyla;Balaenidae;Eubalaena;Eubalaena glacialis;22999999.91;PanTHERIA;24455;AnAge;20987.5;3467.5;PanTHERIA;9553.875;9553.875;Rspan-AFB
+8153;Cetartiodactyla;Balaenidae;Eubalaena;Eubalaena australis;22999999.91;PanTHERIA;25550;AnAge;22447.5;3102.5;PanTHERIA;9612.275;9855;GMA
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB/unix/data$ head -n 11 Pacifici2013_data.csv | cut -d ';' -f 1- | tail -n +27580;Rodentia;Cricetidae;Eligmodontia;Eligmodontia typus;17.37;PanTHERIA;292;PanTHERIA;254.64;73.74;calculated;147.5856;147.5856;Rspan-AFR(SM+Gest)
+42632;Rodentia;Cricetidae;Microtus;Microtus oregoni;20.35;PanTHERIA;456.25;PanTHERIA;445.85;58.06;calculated;187.3565;187.3565;Rspan-AFR(SM+Gest)
+42653;Rodentia;Cricetidae;Peromyscus;Peromyscus gossypinus;27.68;PanTHERIA;471.45833335;PanTHERIA;444.87833335;72.58;calculated;201.59471667;201.5947166715;Rspan-AFR(SM+Gest)
+42662;Macroscelidea;Macroscelididae;Elephantulus;Elephantulus myurus;59.51;PanTHERIA;401.5;PanTHERIA;412.34;90.48;calculated;210.0586;210.0586;Rspan-AFR(SM+Gest)
+16652;Rodentia;Cricetidae;Peromyscus;Peromyscus boylii;23.9;PanTHERIA;547.5;PanTHERIA;514.13;79.97;calculated;229.0677;229.0677;Rspan-AFR(SM+Gest)
+17035;Rodentia;Cricetidae;Phodopus;Phodopus campbelli;27.06;PanTHERIA;653.95833335;PanTHERIA;628.07833335;67.06;calculated;249.20271667;249.2027166715;Rspan-AFR(SM+Gest)
+42617;Rodentia;Cricetidae;Myodes;Myodes gapperi;19.83;PanTHERIA;608.33333335;PanTHERIA;531.94333335;112.39;calculated;266.65356667;266.6535666715;Rspan-AFR(SM+Gest)
+41410;Eulipotyphla;Soricidae;Sorex;Sorex palustris;13.07;PanTHERIA;547.5;PanTHERIA;448.32;143.18;calculated;273.1928;273.1928;Rspan-AFR(SM+Gest)
+42678;Rodentia;Cricetidae;Reithrodontomys;Reithrodontomys humulis;8.25;PanTHERIA;817.90416665;PanTHERIA;795.38416665;66.78;calculated;297.44140833;297.4414083285;Rspan-AFR(SM+Gest)
+42675;Rodentia;Cricetidae;Oryzomys;Oryzomys palustris;53.26;PanTHERIA;866.875;PanTHERIA;841.695;74.66;calculated;318.75155;318.75155;Rspan-AFR(SM+Gest)
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB/unix/data$ cs
+
+Command 'cs' not found, but can be installed with:
+
+sudo apt install csound
+
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB/unix/data$ cd
+(base) eebc177student@eebc177student-VirtualBox:~$ cd Developer
+(base) eebc177student@eebc177student-VirtualBox:~/Developer$ cd repos
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos$ ls
+CSB  CSB_2019  eeb-c177-homework
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos$ cd eeb-c177-homework
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework$ ls
+class_assignments  class_exercises_1-14_2020  lab-exercises
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework$ cd class_assignments
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ ls
+Homework_1-16.txt  homework-two  Thursday_1-16.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ cd homework-two
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments/homework-two$ ls
+easy-question.txt  hw2-part1-commands.txt    Pacifici-25lines.txt      Pacifici-delim.txt
+fasta-cat.txt      hw2-part2-commands-1.txt  Pacifici-25wordcount.txt  pipe-data-lines.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments/homework-two$ touch Pacifici-ten.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments/homework-two$ nano Pacifici-ten.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments/homework-two$ touch hw2-part3-commands.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments/homework-two$ nano hw2-part3-commands.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments/homework-two$ ^C
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments/homework-two$ 
+
