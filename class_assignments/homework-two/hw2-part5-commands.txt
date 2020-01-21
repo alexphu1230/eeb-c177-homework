@@ -1,0 +1,22 @@
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB/unix/data$ tail -n+2 ~/Developer/repos/CSB/unix/data/Pacifici2013_data.csv | cut -d ";" -f 2-6 | tr ";" " " | sort -r -n -k 6 > ~/Developer/repos/eeb-c177-homework/class_assignments/homework-two/bodym.csv
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB/unix/data$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB/unix$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/CSB$ cd ..
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos$ ls
+CSB  CSB_2019  eeb-c177-homework
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos$ cd eeb-c177-homework/
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework$ ls
+class_assignments  class_exercises_1-14_2020  lab-exercises
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework$ cd class_assignments/
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ ls
+Homework_1-16.txt  homework-two  Thursday_1-16.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments$ cd homework-two/
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments/homework-two$ ls
+bodym.csv          fishes-rev-sort.txt  fishes-unique.txt       hw2-part2-commands-1.txt  Pacifici-25lines.txt      Pacifici-ten.txt
+easy-question.txt  fishes-sort.txt      fish_species.txt        hw2-part3-commands.txt    Pacifici-25wordcount.txt  pipe-data-lines.txt
+fasta-cat.txt      fishes-sort.txxt     hw2-part1-commands.txt  hw2-part4-commands.txt    Pacifici-delim.txt
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments/homework-two$ nano bodym.csv
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments/homework-two$ 
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments/homework-two$ nano bodym.csv
+(base) eebc177student@eebc177student-VirtualBox:~/Developer/repos/eeb-c177-homework/class_assignments/homework-two$ 
+
