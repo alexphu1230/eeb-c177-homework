@@ -13,7 +13,15 @@ Number of Nobel Prize winners by category
 6. Physics: 210
    Command: cut -d "," -f 3 nobel.csv | grep -w physics | wc -l
 
-
+Winners of Multiple Nobel Prizes: 
+Command: cut -d "," -f 4-6  nobel.csv | sort | uniq -c | sort -n
+ 2 217,"Linus Carl","Pauling"
+      2 222,"Frederick","Sanger"
+      2 515,"Office of the United Nations High Commissioner for Refugees (UNHCR)",NA
+      2 66,"John","Bardeen"
+      2 6,"Marie","Curie
+      3 482,"Comité international de la Croix Rouge (International Committee of the Red Cross)",NA
+ 
 
 Most common surnames (appears more than once): 
 Command: cut -d "," -f 6 nobel.csv | sort | uniq -c | sort -n
