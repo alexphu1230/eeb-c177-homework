@@ -8,4 +8,5 @@
    Command: cut -d "," -f 3 nobel.csv | grep -w medicine | wc -l
 5. Peace: 133
    Command: cut -d "," -f 3 nobel.csv | grep -w peace | wc -l
-
+6. Physics: 210
+   Command: cut -d "," -f 3 nobel.csv | grep -w physics | wc -l
